@@ -15,6 +15,11 @@ program format
 	print *, matrix 
 
 	write (*,1), matrix
-	1 format(f20.4) ! format(2f20.4) - two columns 
+	1 format(f20.4) ! format(2f20.4) - two columns
+
+	!2D Array
+
+	INTEGER, DIMENSION(3, 3 ) :: array
+	array = reshape((/1, 2, 3, 4, 5, 6, 7, 8, 9 /), shape(array)) 
 
 end program format 
