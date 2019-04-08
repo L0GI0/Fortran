@@ -19,7 +19,7 @@ program format
 
 	!2D Array
 
-	INTEGER, DIMENSION(3, 3 ) :: array
+	INTEGER, DIMENSION(3, 3) :: array
 	array = reshape((/1, 2, 3, 4, 5, 6, 7, 8, 9 /), shape(array)) 
 
 end program format 
